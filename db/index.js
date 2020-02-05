@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 mongoose
   .connect(
     "mongodb+srv://<user>:<password>@cluster0-opiru.mongodb.net/test?retryWrites=true&w=majority",
